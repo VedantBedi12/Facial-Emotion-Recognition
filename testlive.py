@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-model=tf.keras.models.load_model('model.h5')
+model=tf.keras.models.load_model("./model.h5")
 
 faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
